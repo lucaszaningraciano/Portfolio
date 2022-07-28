@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio Lucas</title>
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Port<span>fólio</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="menu-btn">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <!-- HOME INICIO-->
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Olá, meu nome é</div>
+          <div class="text-2">Lucas Zanin Graciano</div>
+          <div class="text-3">eu sou <span>Desenvolvedor Front-End</span></div>
+          <a href="#">Contratar-me</a>
+        </div>
+      </div>
+    </section>
+    <!-- SESSÃO SOBRE-->
+
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Sobre</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="./images/fotoportfolio.png" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              Sou Lucas e sou <span>Desenvolvedor Front-End</span><br /><br />
+              <p>
+                Olá, muito prazer, sou Desenvolvedor Front-End com conhecimentos
+                em HTML, CSS, Javascript, Git e Github. Atualmente, eu trabalho
+                como Gerente Comercial em uma empresa localizada em Porto Alegre
+                e sou responsável por projetar, construir e otimizar as
+                interfaces de projetos web. Tenho como objetivo profissional a
+                criação de interface de sites, aplicativos e jogos.
+              </p>
+            </div>
+
+            <a href="#">Meu currículo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SESSÃO ESPECIALIDADES-->
+
+    <section class="especialidades" id="especialidades">
+      <div class="max-width">
+        <h2 class="title">Especialidades</h2>
+        <div class="especialidades-content">
+          <div class="card">
+            <div class="box">
+              <ion-icon name="logo-html5"></ion-icon>
+              <div class="text">HTML</div>
+              <p>
+                O HTML é o componente base da web. Isso quer dizer que ele
+                permite a construção de websites e a inserção de novos
+                conteúdos, como imagens e vídeos, por meio dos hipertextos.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <ion-icon name="logo-css3"></ion-icon>
+              <div class="text">CSS</div>
+              <p>
+                O CSS tem a tarefa de separar o conteúdo do site de sua
+                apresentação visual, alterando elementos como cor do texto,
+                fonte e espaçamento entre blocos, assim como todo o aspecto
+                estético de uma página.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <ion-icon name="logo-javascript"></ion-icon>
+
+              <div class="text">JAVASCRIPT</div>
+              <p>
+                A linguagem de programação Javascript permite ao desenvolvedor
+                implementar diversos itens de alto nível de complexidade em
+                páginas web, como animações, mapas, gráficos ou informações que
+                se atualizam em intervalos de tempo padrão, por exemplo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SESSÃO CONTATO-->
+
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contato</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Contate-me</div>
+            <p>
+              Quer falar comigo? Envie uma mensagem! <br /><br />
+              Preencha o formulário ao lado para esclarecemos suas dúvidas e dar
+              início ao seu projeto! <br />
+              <br />
+              Fique a vontade para dar uma olhada nas minhas redes sociais.
+              <br /><br />
+            </p>
+
+            <div class="icons">
+              <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Nome</div>
+                  <div class="sub-title">Lucas Zanin Graciano</div>
+                </div>
+              </div>
+              <div class="row">
+                <ion-icon name="earth-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Endereço</div>
+                  <div class="sub-title">Porto Alegre - RS</div>
+                </div>
+              </div>
+              <div class="row">
+                <ion-icon name="mail-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">lucas.zanin.graciano@hotmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--column left-->
+          <div class="column rigth">
+            <div class="text">Mensagem</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Nome" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <div class="field">
+                  <input type="text" placeholder="Sobrenome" required />
+                </div>
+                <div class="field textarea">
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    placeholder="Escrever...."
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button>
+                </div>
+                <div class="social-media">
+                  <a href="https://www.instagram.com/lucas.zaning/"
+                    ><ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                  <a href="https://www.linkedin.com/in/lucas-zanin-925750245/"
+                    ><ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                  <a href="https://github.com/lucaszaningraciano"
+                    ><ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SESSÃO FOOTER-->
+    <footer>
+      <span>Criado por Lucas Zanin Graciano</span> - Todos os direitos
+      reservados 2022
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  </body>
+</html>
